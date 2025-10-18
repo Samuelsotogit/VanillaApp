@@ -1,0 +1,90 @@
+body {
+  display: flex;
+  flex-direction: column;
+  margin: 0;
+  font-family: Garamond, "Times New Roman", Times, serif;
+  background-color: #70b2b2;
+  color: black;
+  min-height: 100vh;
+}
+
+header {
+  background-color: #016b61;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  padding-inline: 5%;
+}
+
+nav {
+  display: flex;
+  flex-direction: row;
+  padding: 1%;
+  align-items: center;
+  width: 50%;
+  justify-content: space-evenly;
+}
+
+#hamburger:hover {
+  cursor: pointer;
+}
+
+#side-menu-container {
+  display: none;
+}
+#side-menu-container.active {
+  display: block;
+}
+
+.side-menu {
+  position: fixed;
+  top: 10;
+  right: 0;
+  height: 100vh;
+  width: 25vw;
+  min-width: 200px;
+  background: #333;
+  color: #fff;
+  padding: 2rem 1rem;
+  box-shadow: -2px 0 8px rgba(0, 0, 0, 0.2);
+  z-index: 1000;
+  transition: transform 0.5s;
+  transform: translateX(100%);
+}
+
+#side-menu-container.active .side-menu {
+  transform: translateX(0);
+}
+
+a {
+  text-decoration: none;
+  color: inherit;
+  cursor: pointer;
+}
+
+.main-content {
+  display: flex;
+  flex-direction: column;
+  flex-grow: 1;
+}
+
+main {
+  flex-grow: 1;
+}
+
+footer {
+  display: flex;
+  flex-direction: row;
+  margin-inline: 1%;
+  padding: 3%;
+  align-items: center;
+  justify-content: center;
+}
+
+.github-handle-text {
+  margin: 2px;
+}
+
+#github-handle:hover {
+  text-decoration: underline;
+}
