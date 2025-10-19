@@ -1,4 +1,11 @@
-primary: #016B61
-secondary: #70B2B2
-third: #9ECFD4
-fourth: #E5E9C5
+#014b42 
+ #016B61
+ #70B2B2 
+ #9ECFD4
+#ffcf5c
+ #ffe19c
+ #E5E9C5
+
+Gradients:
+ #70b2b2
+  #016b61

@@ -3,31 +3,58 @@
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>VanillaApp</title>
+    <title>Landing Page</title>
   </head>
   <body>
     <header>
-      <p>LOGO</p>
       <nav>
-        <a href="index.html">Home</a>
-        <a href="about.html">About</a>
+        <div id="logo">
+          <a href="index.html" class="nav-link">💠 FinanceLab</a>
+        </div>
+
+        <div id="modules">
+          <a class="nav-link" href="./personal/index.html">Personal Finance</a>
+          <a class="nav-link" href="./business/index.html">Business Finance</a>
+          <a class="nav-link" href="./economics/index.html">Economics</a>
+        </div>
+
+        <div id="about">
+          <a class="nav-link" href="about.html">About</a>
+        </div>
       </nav>
-      <button id="hamburger">☰</button>
     </header>
-    <div id="side-menu-container"></div>
-    <div class="main-content">
-      <main>
-        <h1>Welcome to the Homepage</h1>
-      </main>
-      <footer>
-        <p class="github-handle-text">
-          Created by:
-          <a id="github-handle" href="https://github.com/Samuelsotogit"
-            >Samuelsotogit
-          </a>
-        </p>
-      </footer>
-    </div>
+    <main>
+      <section class="landing">
+        <div class="landing-content">
+          <h1>Welcome to <span>FinanceLab</span></h1>
+          <p class="tagline">
+            Learn the fundamentals of finance and economics — through simple
+            examples, clear visuals, and interactive exercises.
+          </p>
+
+          <p class="intro">
+            Explore how money grows, how markets find balance, and how
+            businesses make decisions. FinanceLab turns abstract ideas into
+            experiences you can
+            <em>see</em> and <em>play with</em>.
+          </p>
+
+          <div class="cta-buttons">
+            <a href="personal/index.html" class="btn">💰 Personal Finance</a>
+            <a href="economics/index.html" class="btn">📈 Economics</a>
+            <a href="business/index.html" class="btn">🏢 Business Finance</a>
+          </div>
+        </div>
+      </section>
+    </main>
+    <footer>
+      <p class="github-handle-text">
+        Created by:
+        <a id="github-handle" href="https://github.com/Samuelsotogit"
+          >Samuelsotogit
+        </a>
+      </p>
+    </footer>
     <script type="module" src="src/main.js"></script>
   </body>
 </html>
