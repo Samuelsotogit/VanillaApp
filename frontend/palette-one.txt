@@ -2,6 +2,7 @@
  #016B61
  #70B2B2 
  #9ECFD4
+ #bce6e6
 #ffcf5c
  #ffe19c
  #E5E9C5

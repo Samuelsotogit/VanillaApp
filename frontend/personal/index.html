@@ -4,6 +4,131 @@
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Personal Module</title>
+    <link rel="stylesheet" href="../src/style.css" />
   </head>
-  <body></body>
+  <body>
+    <header>
+      <nav>
+        <div id="logo">
+          <a href="../index.html" class="nav-link">💠 FinanceLab</a>
+        </div>
+
+        <div id="modules">
+          <a class="nav-link" href="../personal/index.html">Personal Finance</a>
+          <a class="nav-link" href="../business/index.html">Business Finance</a>
+          <a class="nav-link" href="../economics/index.html">Economics</a>
+        </div>
+
+        <div id="about">
+          <a class="nav-link" href="../about.html">About</a>
+        </div>
+      </nav>
+    </header>
+    <main>
+      <section class="module-intro">
+        <h1 class="module-intro-headers">
+          Welcome to the Personal Finance Module!
+        </h1>
+        <p class="module-intro-paragraphs">
+          In this module, you will learn the basic skills you need to manage
+          your money wisely in a simple way! We will be focusing on budgeting,
+          saving, emergency funds, and understanding debt and credit. Each topic
+          will be short, but impactful if you choose to apply it to your life.
+          Let's begin!
+        </p>
+      </section>
+      <section class="topic-description">
+        <div>
+          <h3>Introduction to Budgeting</h3>
+        </div>
+        <div class="questions-container">
+          <div id="question-container-1" class="question-container">
+            <h2 class="question">What is budgeting?</h2>
+            <p class="answer">
+              Budgeting is planning how to spend your money by tracking income
+              and expenses. It’s a financial roadmap to cover essentials, save,
+              and avoid overspending. Example: Using the 50/30/20 rule (50%
+              needs, 30% wants, 20% savings/debt) for a $2,000 monthly income.
+            </p>
+          </div>
+          <div id="question-container-2" class="question-container">
+            <h2 class="question">
+              How can budgeting help me live a better life?
+            </h2>
+            <p class="answer">
+              Budgeting reduces financial stress by helping you avoid debt, save
+              for emergencies (like car repairs), and prioritize goals (like a
+              vacation). It gives you control and peace of mind.
+            </p>
+          </div>
+        </div>
+      </section>
+      <section class="examples-container">
+        <h3>Budgeting Steps</h3>
+        <div id="step-1" class="example">
+          <p>
+            1. Calculate your net income, which is your total income minus taxes
+            and other deductions:
+          </p>
+          <img
+            id="net-income-equation-image"
+            src="../content/net-income-equation-desktop.svg"
+            alt="Net Income Equation"
+          />
+        </div>
+        <div id="step-2" class="example">
+          <p>2. Track your spending, set goals, and create a budget.</p>
+          <div class="budget-images-container">
+            <img
+              id="sample-budget-image"
+              src="../content/budget-image.svg"
+              alt="Sample SVG"
+            />
+            <img
+              id="excel-budget-sample-image"
+              src="../content/excell-budget-sample.webp"
+              alt="Example WebP Image"
+            />
+            <img
+              id="canvas-budget-sample-image"
+              src="../content/canvas-budget-sample.jpg"
+              alt="canvas budget"
+            />
+          </div>
+        </div>
+        <div id="step-3" class="example">
+          <p>3. Choose a strategy:</p>
+          <div id="strategies-step-container">
+            <ul id="budget-strategies-list">
+              <li>Zero-Based Budgeting</li>
+              <li>50/30/20 Rule</li>
+              <li>Envelope System</li>
+              <li>Other Methods</li>
+            </ul>
+            <p id="example-strategy-legend">
+              Example of 50/30/20 Strategy
+              <img
+                id="budgeting-strategy-image"
+                src="../content/budgeting-strategy.svg"
+                alt="budgeting strategy"
+              />
+            </p>
+          </div>
+          <p>4. Adjust your spending, review your budged, and stick to it!</p>
+        </div>
+      </section>
+      <section class="exercises-container">
+        <h3>Exercises</h3>
+      </section>
+    </main>
+    <footer>
+      <p class="github-handle-text">
+        Created by:
+        <a id="github-handle" href="https://github.com/Samuelsotogit"
+          >Samuelsotogit
+        </a>
+      </p>
+    </footer>
+    <script type="module" src="../src/main.js"></script>
+  </body>
 </html>
